@@ -3,9 +3,9 @@
     public class User
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string EmailId { get; set; }
-        public string ShortId { get; set; }
+        public string Name { get; set; } = "";
+        public string EmailId { get; set; } = "";
+        public string ShortId { get; set; } = "";
 
         //Parameterless constructor for EF core
         private User()
